@@ -5,8 +5,7 @@
 ### 测试通过
 
 - WIFI
-- 
-  Ethernet
+- Ethernet
 - Onboard Audio (including digital audio)
 - APFS
 - Sleep/Wake
@@ -18,7 +17,6 @@
 ### Not Working
 
 - 雷电3
-
 - Airdrop
 - 前摄像头
 
