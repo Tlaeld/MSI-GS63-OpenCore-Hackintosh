@@ -142,6 +142,14 @@
 				<key>Path</key>
 				<string>SSDT-PNLFCFL.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>风扇补丁</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-FANQ.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -708,7 +716,7 @@
 				<key>Comment</key>
 				<string>Intel bluetooth card fix, please disabled it if you have compatible wifi card</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -942,7 +950,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/MSIFanService</string>
 				<key>MaxKernel</key>
@@ -1392,7 +1400,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v darkwake=0 keepsyms=1 agdpmod=vit9696 -wegnoegpu alcid=34</string>
+				<string>darkwake=0 keepsyms=1 agdpmod=vit9696 -wegnoegpu alcid=34</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1605,6 +1613,8 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -1631,8 +1641,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -1655,6 +1663,8 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
@@ -1714,6 +1724,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
