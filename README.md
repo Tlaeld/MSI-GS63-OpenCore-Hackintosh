@@ -13,10 +13,10 @@
 - APP Store
 - APFS
 - Bluetooth
+- TpyeC
 
 ### Not Working
 
 - 雷电3
 - Airdrop
-- 前摄像头
 - gtx1060 (无解)
