@@ -8,7 +8,6 @@
 - Ethernet
 - Onboard Audio (including digital audio)
 - APFS
-- Sleep/Wake
 - ALL USB
 - APP Store
 - APFS
@@ -20,3 +19,4 @@
 - 雷电3
 - Airdrop
 - gtx1060 (无解)
+- Sleep/Wake 
