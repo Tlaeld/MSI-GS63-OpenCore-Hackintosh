@@ -3,8 +3,7 @@
 ### 测试系统
 
 - macOS Catalina 10.15.6
-- macOS Big Sur 11.0.1 (20B50)
-- 
+- macOS Big Sur 11.0.1 (20B50
 
 ### 测试通过
 
